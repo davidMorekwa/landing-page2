@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    background-color: var(--almost-white);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    height: 35px;
+    position: relative;
+    padding-top: 7px;
+}
+nav ul li{
+    color: var(--medium-gray);
+    text-align: center;
+    margin-left: 25px;
+}
+nav ul .reg_login{
+    position: relative;
+    left: 800px;
+}
+nav ul #registration{
+    border: 2px solid var(--medium-gray);
+    width: 105px;
+    height: 37px;
+    top: -10px;
+    padding: 5px;
+    padding-top: 6px;
+    border-radius: 12px;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: var(--almost-black);
+}
+.sub_menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 5px var(--medium-gray);
+    border-radius: 12px;
+    left: -25px;
+    margin-top: 7px;
+}
+.sub_menu li{
+    margin: auto;
+    margin-top: 12px;
+    width: 100%;
+    text-align: justify;
+}
+.li_company_sub_menu, .li_features_sub_menu{
+    display: none;
+}
+.li_company_sub_menu{
+    left: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    height: 80vh;
+    padding-left: 145px;
+    padding-right: 70px;
+}
+section h1{
+    font-size: 6.75rem;
+    width: 720px;
+    margin-top: 155px;
+    margin-bottom: auto;
+}
+section p{
+    color: var(--medium-gray);
+    font-size: 1.1rem;
+    width: 455px;
+    margin-top: 65px;
+    margin-bottom: auto;
+}
+section button{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.95rem;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-top: 90px;
+}
+section button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid var(--medium-gray);
+}
+section div{
+    position: relative;
+    margin-top: 72px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+section div img{
+    position: relative;
+    margin: auto;
+}
+
+aside{
+    width: 770px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+aside img{
+    width: 550px;
+}
+
+
