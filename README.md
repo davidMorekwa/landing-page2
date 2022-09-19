@@ -45,7 +45,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - jQuery
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 
 
